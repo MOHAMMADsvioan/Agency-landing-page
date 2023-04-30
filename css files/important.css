@@ -1,0 +1,207 @@
+/* 
+=========================================
+========== omporting other css ===========
+========== files to this files ==============
+=========================================
+*/
+@import "header.css";
+@import "first blue section.css";
+@import "portfolio.css";
+@import "sec blue section.css";
+@import "first queries.css";
+@import "sec queries.css";
+@import "third queries.css";
+@import "third queries.css";
+@import "pseudos.css";
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* 
+=========================================
+========== just some variables ============
+=========================================
+*/
+
+:root{
+
+    /* primary colors */
+    --clr-dark-orange: hsl(18, 99%, 65%);
+    --clr-font-blue: hsl(225, 69%, 30%);
+
+    /* netural colors */
+    --clr-sky-blue: hsl(204, 97%, 73%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-bg: hsl(51, 37%, 96%);
+    --clr-light-orange: hsl(21, 100%, 69%);
+
+    /* font families */
+    --ff-body: 'Inter', sans-serif;
+    --ff-headings: 'Archivo', sans-serif;
+    
+    /* font sizes */
+    --fs-h2: 58px;
+
+    /* fonw weights */
+    --fw-body: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 800;
+
+    --margin-left: 135px;
+}
+
+
+/* 
+=========================================
+========== to erase the white ===========
+========== left over space ==============
+=========================================
+*/
+
+
+html {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: var(--ff-body);
+  padding: 0;
+  overflow-x: hidden !important;
+  background-color: var(--clr-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: var(--ff-headings) !important;
+}
+
+.mob{
+    display: none;
+}
+
+
+/* =============================
+========== attributions ========
+================================*/
+
+
+
+.attribution {
+    font-size: 16px; 
+    text-align: left; 
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    transition: .35s;
+    color: var(--clr-white);
+    opacity: .8;
+}
+
+.attribution a {
+    color: hsl(204, 97%, 73%); 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    position: relative;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+/* =============================
+========== utitlity classes ========
+================================*/
+
+
+.hover-item{
+    position: relative;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+.button{
+    height: 56px;
+    background: linear-gradient(96.65deg, 
+     var(--clr-light-orange) 0%, 
+     var(--clr-dark-orange) 100%);
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    position: relative;
+}
+
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--ff-body);
+}
+
+.button p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--clr-white);
+    z-index: 5;
+    transition: .3s;
+    margin-bottom: 0 !important;
+}
+
+.project-description{
+    background: hsl(240, 37%, 25%);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    position: relative;
+    margin-right: 5px;
+    padding: 3px 17px;
+}
+
+.project-description p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--clr-white);
+    transition: .3s;
+    z-index: 5;
+    cursor: default;
+}
+
+
+.hidden{
+    display: none !important;
+}

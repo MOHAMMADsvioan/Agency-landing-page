@@ -1,0 +1,137 @@
+/* =============================
+========== buttons ========
+================================*/
+
+
+.nav-button:hover p{
+    letter-spacing: 2px;
+    color: var(--clr-white);
+}
+
+.nav-button::after{
+    background: linear-gradient(96.65deg, 
+     var(--clr-light-orange) 0%, 
+     var(--clr-dark-orange) 100%);
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    right: 0;
+    border-radius: 8px;
+    content: '';
+    z-index: 3;
+    animation: .7s linear ease-in-out;
+    transition: .7s !important;
+}
+
+.nav-button:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+.button::before{
+    background: linear-gradient(96.65deg, 
+     var(--clr-dark-orange) 0%, 
+     var(--clr-light-orange) 100%);
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    border-radius: 12px;
+    z-index: 3;
+    content: '';
+}
+
+/* =============================
+========== attribution ========
+================================*/
+
+
+
+.attribution .att-link:hover::after{
+    transform: scaleX(1);
+}
+
+.attribution .att-link::after{
+    position: absolute;
+    transform: scaleX(0);
+    left: 0;
+    bottom: -2.5px;
+    height: 2.5px;
+    background-color: white;
+    content: '';
+    width: 100%;
+    transition: .7s;
+}
+
+.attribution a:hover{
+    color: var(--clr-font-blue-hover); 
+}
+
+/* =============================
+========== other stuff ========
+================================*/
+
+
+.hover-item:hover,
+.hover-item-footer:hover{
+    letter-spacing: 1.3px;
+    color: var(--clr-font-blue-hover);
+}
+
+.hover-item::before,
+.hover-item-footer::before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    background-color: var(--clr-font-blue);
+    transform: scaleX(0);
+    transition: .3s;
+}
+
+.hover-item-footer::before,
+.hover-item-footer::before{
+    background-color: var(--clr-white);
+    color: var(--clr-white);
+}
+
+.hover-item:hover::before,
+.hover-item-footer:hover::before{
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+.project-description::before{
+    background: var(--clr-light-blue);
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    border-radius: 12px;
+    z-index: 3;
+    content: '';
+}
+
+.project-description:hover::before,
+.button:hover::before{
+    width: 100%;
+}
+
+.project-description:hover p,
+.button:hover p{
+    letter-spacing: 2px;
+}

@@ -1,0 +1,275 @@
+@media only screen and (max-width: 400px) {
+    
+  :root {
+    --margin-left: 24px !important;
+  }
+
+
+  header{
+    position: relative;
+    overflow-x: hidden !important;
+  }
+
+  .desk{
+    display: none !important;
+  }
+
+  .mob,
+  .mobs,
+  .right-nav{
+    display: block !important;
+  }
+
+  nav{
+    position: relative !important;
+    width: 100% !important;
+  }
+
+  nav .menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between !important; 
+        margin-bottom: 35px;
+        position: relative;
+        height: 75% !important;
+    }
+
+    nav .menu{
+        position: absolute;
+        top: 120px;
+        left: 30px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: center;
+        width: 300px;
+        min-height: 325px;
+        box-shadow: 2px 4px 15px -8px rgba(0,0,0,1);
+       -webkit-box-shadow: 2px 4px 15px -8px rgba(0,0,0,1);
+        -moz-box-shadow: 2px 4px 15px -8px rgba(0,0,0,1);
+        padding: 20px;
+        font-weight: bold;
+        transition: .5s ease-in-out;
+        transform: scale(0, 0) translate(-400px, -400px);
+        z-index: 6;
+    }
+
+    nav .menu ul::after{
+        content: '';
+        width: 260px;
+        height: 1px;
+        background-color: var(--clr-font-blue);
+        opacity: .9;
+        position: absolute;
+        top: 240px;
+        left: 90px;
+    }
+
+    .menu-scale{
+        transform: scale(1, 1) translate(0px, 0px) !important;
+    }
+
+    .nav-link{
+        font-weight: 700;
+        margin: 10px 0 !important;
+        cursor: pointer;
+        transition: .5s;
+        display: block;
+    }
+
+    nav .menu ul li a::after{
+        display: none;
+    }
+
+    .ham{
+        display: block !important;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .close{
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .button{
+        padding: 16px 0px !important; 
+        width: 327px;
+    }
+
+    h1{
+        font-size: 48px;
+        line-height: 58px;
+        max-width: 317px;
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+    }
+
+    h1 img:first-of-type{
+        width: 36px;
+        height: 46.18px;
+    }
+
+    h1 img:last-of-type{
+        width: 46.97px;
+        height: 26px;
+    }
+
+    .hero-p{
+        margin-bottom: 24px;
+    }
+
+    .header-floating-icon{
+        width: 107.58px;
+        height: 35.86px;
+        left: 295px;
+        top: 494.79px;
+        transform: rotate(-30deg);
+    }
+
+    .hero-button{
+        margin-bottom: 190px !important;
+    }
+    
+
+
+    .first-blue-sec{
+        width: 100%;
+        height: 3777px;
+        background: linear-gradient(151.98deg, #182E76 15.31%, #37233B 100%);
+        border-radius: 40px;
+        padding-top: 150px !important;
+    }
+
+    .happy{
+        width: 327px;
+        height: 266.19px;
+        left: 24px;
+        top: 553px;
+    }
+
+    .companies{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 260px;
+        height: 120px;
+        margin: 0 auto 40px auto;
+    }
+
+    .todo{
+        height: 750px;
+        position: relative;
+        padding-bottom: 960px !important;
+    }
+
+    .todo h2{
+        font-size: 40px !important;
+    }
+
+    .todo .para .text{
+        margin-bottom: 40px !important;
+    }
+
+    .people{
+        width: 144px;
+        height: 48px;
+    }
+
+    .all-todo-imgs{
+        position: absolute;
+        width: 327px;
+        height: 206.6px;
+        left: 24px;
+        top: 620px;
+    }
+    
+    .pricing{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px var(--margin-left);
+        margin-bottom: 300px;
+    }
+
+    .star,
+    .book,
+    .styles,
+    .kite,
+    .someone{
+        display: none;
+    }
+
+    .pricing h2{
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: -0.75px;
+        margin-bottom: 40px !important;
+    }
+
+    .pricing .components{
+        display: flex;
+        flex-direction: column;
+        height: 1172px;
+        margin-bottom: 40px;
+    }
+
+    .pricing .components .component{
+        width: 327px !important;
+        height: 372px !important;
+    }
+
+    .centered-component{
+        margin-bottom: auto !important;
+        margin: 28px 0 !important;
+    }
+
+    .sided-component{
+        position: static !important;
+    }
+
+    .numbers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 500px var(--margin-left);
+    }
+
+    .numbers .button{
+        margin-bottom: 120px;
+    }
+
+    .numbers h2{
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: -0.75px;
+        margin-bottom: 40px;
+    }
+
+    .numbers .components{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: calc(40px - 16px);
+        align-items: center;
+        width: 100%;
+    }
+    
+    .numbers .components .component{
+        width: 244px;
+        height: 142px;
+        margin-bottom: 16px;
+        padding: 16px 32px;
+    }
+
+    .numbers .components .component h2{
+        font-size: 48px;
+        letter-spacing: -3px;
+        margin-bottom: 0 !important;
+    }
+
+    .numbers .components .component p{
+        font-size: 16px;
+    }
+
+}

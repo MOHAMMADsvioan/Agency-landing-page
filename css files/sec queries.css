@@ -1,0 +1,332 @@
+@media only screen and (max-width: 400px) {
+
+
+  /* ==============================
+       ========== certification =====
+       ============================== */
+
+
+
+  .cert-container {
+    position: absolute;
+    width: 375px;
+    height: 816px;
+    left: 0px;
+    top: 4298px;
+  }
+
+  .cert {
+    width: 327px;
+    height: 736px;
+    background: linear-gradient(180deg, #7795fd 0%, #4958cc 100%);
+    border: 6px solid #ffffff;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 32px !important;
+  }
+
+  .cert h2 {
+    font-size: 40px !important;
+    text-align: center;
+    letter-spacing: -0.75px;
+    margin: 0 auto 40px auto !important;
+  }
+
+  .yellow-object,
+  .floating-yellow {
+    display: none;
+  }
+
+  .cert-img {
+    width: 271px;
+    height: 152.57px;
+    margin: 0 auto 40px auto;
+  }
+
+  .cert .right,
+  .cert .left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cert .left {
+    padding-left: 32px;
+  }
+
+  .cert .left div h4 {
+    font-size: 25px !important;
+    letter-spacing: -0.5px;
+  }
+
+  .cert .left div p {
+    font-size: 14px !important;
+    margin-top: 4px;
+  }
+
+
+
+  /* ==============================
+       ========== portfolio =====
+       ============================== */
+
+
+
+  .portfolio {
+    margin-top: 380px;
+  }
+
+  .portfolio h2 {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.75px;
+    line-height: 50px;
+    margin-bottom: 40px;
+  }
+
+  .portfolio .projects .project {
+    margin: 0 auto;
+  }
+
+  .portfolio .projects .project h2 {
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+    margin-top: 12px;
+  }
+
+  .project-description {
+    padding: 3px 14px !important;
+    border-radius: 24px;
+    min-width: 132px;
+    height: 24px;
+  }
+
+  .project-description p {
+    font-size: 12px !important;
+  }
+
+  .portfolio .projects,
+  .project .projects .righted,
+  .project .projects .lefted {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio .projects .project .catagories {
+    max-width: 256px !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-description:last-child {
+    margin-top: 4px !important;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 130px;
+  }
+
+
+
+  /* ==============================
+       ========== testimonial =====
+       ============================== */
+
+
+
+  .testimonial {
+    position: absolute;
+    width: 327px;
+    height: 765px;
+    left: 38px;
+    top: -80px;
+    background: linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
+    border: 6px solid var(--clr-white);
+    border-radius: 40px;
+    padding: 89px 12px 42px 32px !important;
+    transform: translateY(0px);
+  }
+
+  .testimonial img {
+    position: absolute;
+    width: 43px;
+    height: 38px;
+    top: 34px;
+    left: 242px;
+  }
+
+  .testimonial h2 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -0.75px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    max-width: 264px;
+  }
+
+  .testimonial .text {
+    line-height: 38px;
+    letter-spacing: -0.5px;
+    font-size: 18px;
+    line-height: 38px;
+    max-width: 264px;
+    margin: 0 0 40px 0 !important;
+    max-height: 380px !important;
+  }
+
+  .testimonial .info .name {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  .testimonial .info .job {
+    font-size: 16px;
+  }
+
+
+
+  /* ==============================
+       ========== questions =====
+       ============================== */
+
+
+
+  .cta {
+    padding-top: 870px;
+  }
+
+  .cta h2 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.75px;
+    margin-bottom: 40px;
+  }
+
+  .questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .questions .left,
+  .questions .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .questions .left h2 {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.75px;
+    margin-bottom: 30px;
+  }
+
+  .questions .left img {
+    width: 227px;
+    height: 194.68px;
+    margin: 0 auto 30px auto;
+  }
+
+  .questions .right {
+    max-width: 327px;
+    margin-left: 0 !important;
+  }
+
+  .questions .right .question {
+    width: 327px;
+    height: 68px;
+  }
+
+  .questions .right .question p {
+    max-width: 275px;
+  }
+
+  .questions .right .question::after {
+    width: 330px;
+    position: absolute;
+    content: "";
+    top: 69px;
+  }
+
+  .questions .right .question img {
+    margin: auto 0;
+  }
+
+
+
+  /* ==============================
+       ========== footer =====
+       ============================== */
+
+
+
+  .footer-footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .upper-footer,
+  .footer-footer,
+  .middle-footer,
+  .bottom-footer,
+  .upper-footer .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .upper-footer .buttons {
+    right: 0;
+    align-items: flex-start;
+  }
+
+  .upper-footer .buttons button {
+    margin-right: auto;
+  }
+
+  .upper-footer {
+    align-items: flex-start !important;
+  }
+
+  .upper-footer::after {
+    content: "";
+    position: absolute;
+    width: 321px;
+    top: 190px;
+  }
+
+  .transparant {
+    margin-bottom: 12px;
+    margin-top: 16px;
+  }
+
+  .middle-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .footer-column {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .footer-column:first-child {
+    order: 5;
+  }
+
+  .copy-right {
+    max-width: 257px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
